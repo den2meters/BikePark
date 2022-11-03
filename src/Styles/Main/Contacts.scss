@@ -1,0 +1,50 @@
+.contact {
+
+   &__wrapper {}
+
+   &__title {
+      margin: 0px 0px 42px 0px;
+   }
+
+   &__body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 0.5fr 1fr;
+      grid-template-areas: 
+            "info application"
+            "map map";
+      row-gap: 60px;
+      @media (max-width: 631px) {
+         grid-template-columns: 1fr;
+         grid-template-rows: 0.1fr 0.5fr 1fr;
+         grid-template-areas:
+            "info"
+            "application"
+            "map";
+         row-gap: 40px;
+      }
+   }
+
+   &__info {
+      grid-area: info;
+   }
+
+   &__application {
+      grid-area: application;
+   }
+
+   &__map {
+      grid-area: map;
+   }
+}
+
+.info {
+
+   &__body {}
+
+   &__item {}
+
+   &__name {}
+
+   &__value {}
+}

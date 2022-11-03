@@ -1,0 +1,47 @@
+.type {
+
+   &__wrapper {
+      height: 60px;
+      position: relative;
+   }
+
+   &__body {
+      padding: 5px;
+      height: 60px;
+      display: grid;
+      grid-template-columns: repeat(2, 0.5fr);
+      grid-template-rows: 1fr;
+      cursor: pointer;
+   }
+
+   &__day {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 122%;
+   }
+
+   &__day-active {
+      padding: 10px;
+      background-color: #297FFF;
+      color: #ffffff;
+      border-radius: 10px;
+   }
+
+   &__hours {
+      width: 100%;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      z-index: 50;
+   }
+
+   &__hours-active{
+      display: none;
+   }
+}

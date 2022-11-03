@@ -1,0 +1,140 @@
+.rental-calendar {
+
+   &__wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+   }
+
+   &__body{
+      width: 100%;
+      min-height: 255px;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      margin: 0px 0px;
+      margin-bottom: 20px;
+      border: 1px solid #DDE3EB;
+      border-radius: 10px;
+      @media (max-width: 600px) {
+         flex-direction: column;
+      }
+   }
+
+   &__first-month {
+      padding: 10px;
+      flex: 1 1 50%;
+      width: 100%;
+   }
+
+   &__second-month {
+      padding: 10px;
+      flex: 1 1 50%;
+      width: 100%;
+   }
+
+   &__header {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      margin: 0px 0px 10px 0px;
+   }
+
+   &__name-month {
+      margin-right: 17px;
+      font-size: 16px;
+      max-width: 90px;
+      width: 100%;
+   }
+
+   &__arrows {
+      color: #297FFF;
+      font-size: 14px;
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      justify-content: end;
+      user-select: none;
+   }
+
+   &__arrow-up {
+      transform: rotate(270deg);
+      cursor: pointer;
+   }
+
+   &__arrow-down {
+      transform: rotate(90deg);
+      cursor: pointer;
+   }
+
+   &__input {
+      max-width: 70px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      & input {
+         height: 30px;
+         padding-left: 10px;
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 150%;
+         background: #F2F4F7;
+      }
+   }
+
+   &__days{
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      row-gap: 8px;
+   }
+
+   &__dayOfWeek{
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 28px;
+      width: 100%;
+      border-bottom: 1px solid #DDE3EB;
+   }
+
+   &__day {
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 28px;
+      width: 100%;
+   }
+
+   &__day-active-start {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+      background-color: #297FFF;
+      color: #fff;
+   }
+
+   &__day-active-finish {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      background-color: #297FFF;
+      color: #fff;
+   }
+
+   &__day-betweenDate{
+      background-color: #297fff3b;
+   }
+
+   &__confirm-button{
+      max-width: 260px;
+      width: 100%;
+      height: 60px;
+      font-weight: 700;
+      line-height: 22px;
+   }
+}

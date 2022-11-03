@@ -1,0 +1,17 @@
+.blocksubstrate {
+
+   &__wrapper {
+      height: 100%;
+      width: 100%;
+   }
+
+   &__container {
+   }
+
+   &__body {
+      background: #ffffff;
+      border: 1px solid #DDE3EB;
+      border-radius: 15px;
+      overflow: hidden;
+   }
+}

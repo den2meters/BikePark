@@ -1,0 +1,118 @@
+.header {
+
+   &__wrapper {}
+
+   &__container {}
+
+   &__body {
+      padding: 0px 40px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+   }
+
+   &__logo {
+      margin-right: 34px;
+      img {
+         max-width: 66px;
+         height: 100%;
+      }
+      @media (max-width: 1160px) {
+         margin-right: 10px;
+      }
+      @media (max-width: 631px) {
+         flex: 1 1 auto;
+      }
+   }
+
+   &__menu-large{
+      flex: 1 1 auto;
+      @media (max-width: 1101px) {
+         display: none;
+      }
+   }
+
+   &__menu-medium{
+      display: none;
+      flex: 1 1 auto;
+      @media (max-width: 1101px) {
+         display: block;
+      }
+      @media (max-width: 631px) {
+         display: none;
+      }
+   }
+
+   &__phone {
+      margin-right: 20px;
+      @media (max-width: 1025px) {
+         display: none;
+      }
+   }
+
+   &__profile {
+      margin-right: 20px;
+      cursor:pointer;
+      @media (max-width: 1160px) {
+         margin-right: 10px;
+      }
+      @media (max-width: 631px) {
+         display: none;
+      }
+   }
+
+   &__feedbak {
+      font-size: 14px;
+      font-weight: 600;
+      width: 100px;
+      height: 40px;
+      margin-right: 30px;
+      @media (max-width: 1160px) {
+         margin-right: 10px;
+      }
+      @media (max-width: 631px) {
+         display: none;
+      }
+   }
+
+   &__time-info {
+      margin-right: 10px;
+   }
+
+   &__burger-menu {
+      display: none;
+      @media (max-width: 1101px) {
+         display: block;
+      }
+   }
+
+   &__modal-menu{
+      display: none;
+   }
+
+   &__modal-menu-active {
+      display: block;
+      position: absolute;
+      top: 80px;
+      left: 0px;
+      width: 100%;
+      @media (max-width: 631px) {
+         display: none;
+      }
+   }
+
+   &__modal-mobile-menu {
+      display: none;
+   }
+
+   &__modal-mobile-menu-active {
+      display: none;
+      @media (max-width: 631px) {
+         display: block;
+         position: absolute;
+         top: 80px;
+         left: 0px;
+         width: 100%;
+      }
+   }
+}

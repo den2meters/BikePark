@@ -1,0 +1,130 @@
+.footer {
+
+   &__wrapper {
+      background-color: #272934;
+      color: #F2F4F7;
+      a{
+         color: #F2F4F7;
+      }
+   }
+
+   &__container {
+   }
+
+   &__body {
+      padding: 55px 20px;
+      display: grid;
+      grid-template-columns: 30% 70%;
+      grid-template-rows: 1fr;
+      grid-template-areas: 
+      "rental menu"
+      "name copyright";
+      @media (max-width: 769px) {
+         grid-template-columns: 1fr 1fr;
+      }
+      @media (max-width: 426px) {
+         padding-bottom:35px;
+         grid-template-columns: 1fr;
+         grid-template-areas:
+               "rental"
+               "menu"
+               "name"
+               "copyright";
+      }
+   }
+
+   &__rental {
+      grid-area: rental;
+      @media (max-width: 426px) {
+         margin: 0px 0px 47px 0px;
+      }
+   }
+
+   &__titel {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0px 0px 26px 0px;
+      @media (max-width: 769px) {
+         font-size: 16px;
+      }
+   }
+
+   &__items {
+   }
+
+   &__item {
+      font-size: 16px;
+      font-weight: 500;
+      &:not(:last-child){
+         margin: 0px 0px 6px 0px;
+      }
+   }
+
+   &__menu {
+      display: flex;
+      justify-content: end;
+      @media (max-width: 565px) {
+         flex-wrap: wrap;
+      }
+      @media (max-width: 426px) {
+         margin: 0px 0px 32px 0px;
+      }
+   }
+
+   &__menu-item {
+      font-size: 18px;
+      font-weight: 600;
+      &:not(:last-child){
+         margin: 0px 46px 0px 0px;
+         @media (max-width: 769px) {
+            margin: 0px 20px 0px 0px;
+         }
+         @media (max-width: 565px) {
+            margin: 0px 0px 0px 0px;
+         }
+      }
+      @media (max-width: 565px) {
+         flex: 1 1 50%;
+         font-size: 16px;
+      }
+      @media (max-width: 426px) {
+         &:not(:last-child) {
+            margin: 0px 0px 15px 0px;
+         }
+         margin-bottom:15px;
+      }
+   }
+
+   &__name {
+      display: flex;
+      justify-content: start;
+      align-items: end;
+   }
+
+   &__copyright {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+   }
+
+   &__title {}
+
+   &__social {
+      a {
+         &:not(:last-child) {
+            margin-right: 23px;
+         }
+      }
+      @media (max-width: 769px) {
+         img {
+            width: 34px;
+            height: 100%;
+         }
+         a {
+            &:not(:last-child) {
+               margin-right: 15px;
+            }
+         }
+      }
+   }
+}

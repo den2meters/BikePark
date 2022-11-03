@@ -1,0 +1,102 @@
+.application {
+
+   &__wrapper {}
+
+   &__body {}
+
+   &__title {
+      margin: 0px 0px 35px 0px;
+   }
+
+   &__subtitle {
+      margin: 0px 0px 10px 0px;
+   }
+
+   &__value {
+      
+   }
+
+   &__form {
+   }
+
+   &__name {
+      margin: 0px 0px 20px 0px;
+      width: 100%;
+   }
+
+   &__number {
+      width: 100%;
+      margin: 0px 0px 20px 0px;
+   }
+
+   &__personal-info {
+      margin: 0px 0px 20px 0px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      position: relative;
+      cursor: pointer;
+   }
+
+   &__check {
+      position: absolute;
+      opacity: 0;
+   }
+
+   &__fake-checkbox {
+      flex: 0 0 auto;
+      position: relative;
+      width: 32px;
+      height: 32px;
+      background: #FFFFFF;
+      border: 1px solid #DDE3EB;
+      border-radius: 10px;
+      
+      &::before {
+         content: '✔';
+         color: rgb(255, 255, 255);
+         position: absolute;
+         width: 32px;
+         height: 32px;
+         background-color: #297FFF;
+         border-radius: 10px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         opacity: 0;
+      }
+   }
+   
+   &__check:checked + &__fake-checkbox::before {
+      opacity: 1;
+   }
+
+   &__confirmation {
+      margin-left: 15px;
+      line-height: 100%;
+   }
+
+   &__button {
+      height: 60px;
+      max-width: 560px;
+      position: relative;
+   }
+
+   &__submition{
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      width: 100%;
+      text-align: center;
+   }
+
+   &__refused {
+      position: absolute;
+      bottom: -30px;
+      left: 50%;
+      transform: translate(-50%, 0%);
+      width: 100%;
+      text-align: center;
+   }
+}

@@ -1,0 +1,26 @@
+.PageConnector{
+   width: 75px;
+   height: 35px;
+   background-color: #F2F4F7;
+   position: relative;
+   &::before, &::after{
+      content: '';
+      width: 35px;
+      height: 35px;
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+   }
+
+   &::before {
+      top: 0;
+      left: 0;
+      transform: translate(-50%, 0%)
+   }
+
+   &::after{
+      top: 0;
+      right: 0;
+      transform: translate(50%, 0%)
+   }
+}

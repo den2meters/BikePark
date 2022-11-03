@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import '_nullstyle.scss';
+
+
+* {
+   box-sizing: border-box;
+   list-style-type: none;
+   font-family: 'Montserrat';
+}
+
+body {
+   color: #14233D;
+}
+
+#root {
+   height: 100vh;
+}
+
+.wrapper-app {
+   width: 100%;
+   min-height: 100vh;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+
+.container {
+   max-width: 1280px;
+   margin: 0px auto;
+   padding: 0px 20px;
+}
+
+.title-h1 {
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 120%;
+   @media (max-width: 1025px) {
+      font-size: 36px;
+   }
+   @media (max-width: 631px) {
+      font-size: 32px;
+   }
+}
+
+.title-h2 {
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 110%;
+   color: #14233D;
+   @media (max-width: 1025px) {
+      font-size: 24px;
+   }
+   @media (max-width: 631px) {
+      font-size: 22px;
+   }
+}
+
+.subtitle {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 122%;
+   color: #14233D;
+   @media (max-width: 1025px) {
+      font-size: 18px;
+   }
+}
+
+.text {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 140%;
+   color: #14233D;
+   @media (max-width: 1025px) {
+      font-size: 16px;
+   }
+}
+
+.signature {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 138%;
+   color: #ABB1C5;
+}
+
+.color-text {
+   color: #3E80F7;
+   font-size: 16px;
+   font-weight: 700;
+}
+
+.submited {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 122%;
+   color: #28B737;
+}
+.refused {
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 122%;
+   color: #ff0000;
+}
+
+.arrow {
+   font-size: 40px;
+   margin: 0px 10px;
+   cursor: pointer;
+   color: #297FFF;
+}

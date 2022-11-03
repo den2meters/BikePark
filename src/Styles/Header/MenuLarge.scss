@@ -1,0 +1,37 @@
+.menuLarge {
+
+   &__menu {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+   }
+
+   &__menu-list {
+      display: flex;
+      align-items: center;
+   }
+
+   &__menu-items {
+      a {
+         font-size: 16px;
+         font-weight: 500;
+         color: #14233D;
+         &:hover {
+            color: #3E80F7;
+         }
+      }
+      &:not(:last-child) {
+         margin-right: 20px;
+   
+         @media (max-width: 1160px) {
+            margin-right: 10px;
+         }
+   
+         @media (max-width: 1025px) {
+            margin-right: 20px;
+         }
+      }
+   
+      
+   }
+}

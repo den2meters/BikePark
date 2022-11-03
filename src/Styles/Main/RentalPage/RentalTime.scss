@@ -1,0 +1,59 @@
+.rental {
+
+   &__rental-time {
+      width: 100%;
+   }
+}
+
+.rental-time {
+
+   &__body {
+      width: 100%;
+      display: grid;
+      grid-template-areas: "type choose-date delivery-place";
+      grid-template-columns: 0.25fr 0.5fr 0.25fr;
+      grid-template-rows: 1fr;
+      column-gap: 40px;
+      @media (max-width: 1001px) {
+         grid-template-areas: 
+         "type delivery-place"
+         "choose-date choose-date";
+         grid-template-columns: 0.5fr 0.5fr;
+         grid-template-rows: 1fr 1fr;
+         column-gap: 40px;
+         row-gap: 40px;
+      }
+      @media (max-width: 510px) {
+         grid-template-columns: 1fr;
+         grid-template-rows: 0.25fr 0.5fr 0.25fr;
+         grid-template-areas:
+               "delivery-place"
+               "type"
+               "choose-date";
+         column-gap: 20px;
+         row-gap: 40px;
+      }
+   }
+
+   &__item {
+   }
+
+   &__sinature {
+      margin: 0px 0px 5px 0px;
+      text-align: center;
+   }
+
+   &__type {
+      grid-area: type;
+   }
+
+   &__choose-date {
+      grid-area: choose-date;
+   }
+
+   &__delivery-place {
+      grid-area: delivery-place;
+   }
+
+   
+}
