@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d01bcd2.css",
-    "main.js": "/static/js/main.13dde953.js",
-    "static/media/ride_place_3.jpg": "/static/media/ride_place_3.ec9ff4e3478a1a4e6c5d.jpg",
-    "static/media/ride_place_2.jpg": "/static/media/ride_place_2.65cfd64a704a11c85fdd.jpg",
-    "static/media/ride_place_1.jpg": "/static/media/ride_place_1.7cf25b462fc6e7162051.jpg",
+    "main.css": "/static/css/main.71564045.css",
+    "main.js": "/static/js/main.b1e6930f.js",
+    "static/media/ride_place_3.jpg": "/static/media/ride_place_3.55abee05c14ec31de095.jpg",
+    "static/media/ride_place_2.jpg": "/static/media/ride_place_2.3c428cc0c2a1aeb6e7c0.jpg",
+    "static/media/ride_place_1.jpg": "/static/media/ride_place_1.94bcf035e0def790aa62.jpg",
     "static/media/aboutus.jpg": "/static/media/aboutus.f2e2b855570fbf65b879.jpg",
-    "static/media/ride_place_6.jpg": "/static/media/ride_place_6.8d2bcc46b5d8b38ef1ea.jpg",
+    "static/media/ride_place_6.jpg": "/static/media/ride_place_6.16d8be9b7a402342b409.jpg",
     "static/media/ride_place_4.jpg": "/static/media/ride_place_4.bd1da92999e8b87f51f1.jpg",
     "static/media/ride_place_5.jpg": "/static/media/ride_place_5.ca0d3a2b62cace83b1ec.jpg",
     "static/media/rental-acces-helmet.png": "/static/media/rental-acces-helmet.bfa594134c1c13bf2ae2.png",
@@ -19,11 +19,11 @@
     "static/media/facebook.svg": "/static/media/facebook.2f3f48c4abc97abc05818f2938b3fa5c.svg",
     "index.html": "/index.html",
     "static/media/feedback-logo.svg": "/static/media/feedback-logo.fad88a4b62f9815f035f39428718b076.svg",
-    "main.3d01bcd2.css.map": "/static/css/main.3d01bcd2.css.map",
-    "main.13dde953.js.map": "/static/js/main.13dde953.js.map"
+    "main.71564045.css.map": "/static/css/main.71564045.css.map",
+    "main.b1e6930f.js.map": "/static/js/main.b1e6930f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d01bcd2.css",
-    "static/js/main.13dde953.js"
+    "static/css/main.71564045.css",
+    "static/js/main.b1e6930f.js"
   ]
 }
