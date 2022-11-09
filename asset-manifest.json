@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.71564045.css",
-    "main.js": "/static/js/main.b1e6930f.js",
+    "main.css": "/static/css/main.953d56ed.css",
+    "main.js": "/static/js/main.d9084c4e.js",
     "static/media/ride_place_3.jpg": "/static/media/ride_place_3.55abee05c14ec31de095.jpg",
     "static/media/ride_place_2.jpg": "/static/media/ride_place_2.3c428cc0c2a1aeb6e7c0.jpg",
     "static/media/ride_place_1.jpg": "/static/media/ride_place_1.94bcf035e0def790aa62.jpg",
@@ -19,11 +19,11 @@
     "static/media/facebook.svg": "/static/media/facebook.2f3f48c4abc97abc05818f2938b3fa5c.svg",
     "index.html": "/index.html",
     "static/media/feedback-logo.svg": "/static/media/feedback-logo.fad88a4b62f9815f035f39428718b076.svg",
-    "main.71564045.css.map": "/static/css/main.71564045.css.map",
-    "main.b1e6930f.js.map": "/static/js/main.b1e6930f.js.map"
+    "main.953d56ed.css.map": "/static/css/main.953d56ed.css.map",
+    "main.d9084c4e.js.map": "/static/js/main.d9084c4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.71564045.css",
-    "static/js/main.b1e6930f.js"
+    "static/css/main.953d56ed.css",
+    "static/js/main.d9084c4e.js"
   ]
 }
